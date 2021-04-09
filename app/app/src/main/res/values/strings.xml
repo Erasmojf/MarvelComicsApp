@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Marvel Comics</string>
+    <string name="app_name">Marvel API</string>
     <string name="detalhes">detalhes</string>
     <string name="comprar">Comprar</string>
     <string name="personagens_fragment_title">Personagens</string>
