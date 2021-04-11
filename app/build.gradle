@@ -1,6 +1,9 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id "androidx.navigation.safeargs"
+}
 
 android {
     compileSdkVersion 29
@@ -24,7 +27,7 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true
+        viewBinding  true
     }
 
 }
@@ -62,10 +65,9 @@ dependencies {
     androidTestImplementation "androidx.arch.core:core-testing:2.0.0"
     testImplementation "androidx.arch.core:core-testing:2.0.0"
     testImplementation "org.assertj:assertj-core:3.14.0"
-    kapt 'com.squareup.moshi:moshi-kotlin-codegen:1.8.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
 
-    implementation "androidx.room:room-runtime:2.2.5"
-    kapt  "androidx.room:room-compiler:2.2.5"
 }

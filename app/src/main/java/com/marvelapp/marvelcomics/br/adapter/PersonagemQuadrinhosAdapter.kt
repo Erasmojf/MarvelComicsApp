@@ -9,8 +9,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
-import com.marvelapp.br.R
 import com.marvelapp.br.sdk.response.comic.Result
+import com.marvelapp.marvelcomics.br.R
 import com.squareup.picasso.Picasso
 
 class PersonagemQuadrinhosAdapter(

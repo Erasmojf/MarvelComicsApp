@@ -1,7 +1,7 @@
 package com.marvelapp.br.config
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.marvelapp.br.BuildConfig
+import com.marvelapp.marvelcomics.br.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
